@@ -8,49 +8,7 @@ Authors@R: c(
     role = c("aut", "cre"),
     email = "first.last@example.com",
     comment = c(ORCID = "YOUR-ORCID-ID")
-    ),
-    person(
-    given = "First",
-    family = "Last", 
-    role = c("aut", "cre"),
-    email = "first.last@example.com",
-    comment = c(ORCID = "YOUR-ORCID-ID")
-    ),
-    person(
-    given = "First",
-    family = "Last", 
-    role = c("aut", "cre"),
-    email = "first.last@example.com",
-    comment = c(ORCID = "YOUR-ORCID-ID")
-    ),
-    person(
-    given = "First",
-    family = "Last", 
-    role = c("aut", "cre"),
-    email = "first.last@example.com",
-    comment = c(ORCID = "YOUR-ORCID-ID")
-    ),
-    person(
-    given = "First",
-    family = "Last", 
-    role = c("aut", "cre"),
-    email = "first.last@example.com",
-    comment = c(ORCID = "YOUR-ORCID-ID")
-    ),
-    person(
-    given = "First",
-    family = "Last", 
-    role = c("aut", "cre"),
-    email = "first.last@example.com",
-    comment = c(ORCID = "YOUR-ORCID-ID")
-    ),
-    person(
-    given = "First",
-    family = "Last", 
-    role = c("aut", "cre"),
-    email = "first.last@example.com",
-    comment = c(ORCID = "YOUR-ORCID-ID")
-    )
+    ))
 Description: What the package does (one paragraph).
 License: CC BY 4.0
 Encoding: UTF-8
