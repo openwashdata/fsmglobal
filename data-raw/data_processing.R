@@ -39,16 +39,23 @@ read_data_fsmglobal <- function(range, emptying_method) {
 
 }
 
-read_data_fsmglobal(range = "BA2:BE184", emptying_method = "mechanized")
-read_data_fsmglobal(range = "BG2:BK184", emptying_method = "non-mechanized")
-read_data_fsmglobal(range = "BM2:BQ184", emptying_method = "unemptiable")
-read_data_fsmglobal(range = "BS2:BW184", emptying_method = "no facility")
+# read_data_fsmglobal(range = "BA2:BE184", emptying_method = "mechanized")
+# read_data_fsmglobal(range = "BG2:BK184", emptying_method = "non-mechanized")
+# read_data_fsmglobal(range = "BM2:BQ184", emptying_method = "unemptiable")
+# read_data_fsmglobal(range = "BS2:BW184", emptying_method = "no facility")
+
+# the followinf code achieves the same as the code above, but using the map2
+# function instead of repeating a single function four times.
+
+ranges <- c("BA2:BE184", "BG2:BK184", "BM2:BQ184", "BS2:BW184")
+
+emptying_methods <- c("mechanized", "non-mechanized", "unemptiable", "no facility")
+
+purrr::map2(ranges, emptying_methods, read_data_fsmglobal) |>
+  bind_rows()
 
 
 # tidy data ---------------------------------------------------------------
-
-
-
 
 usethis::use_data(DATASET, overwrite = TRUE)
 
