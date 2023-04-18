@@ -30,29 +30,7 @@ join_country_df <- read_excel(path = file_path,
   )) |>
   mutate(iso3c = countrycode::countrycode(Country, origin = 'country.name', destination = 'iso3c'))
 
-
 # function to read and tidy data from excel file
-
-read_excel(path = file_path,
-           range = ranges[[1]]) |>
-  mutate(id = seq(1:n())) |>
-  left_join(join_country_df) |>
-  filter(!is.na(Population)) |>
-  mutate(emptying_method = emptying_methods[[1]]) |>
-  select(-id) |>
-  #pivot_longer(cols = Population:`Rural proportion of demand`,
-  #             names_to = "variable",
-  #             values_to = "value") |>
-  rename(country = Country) |>
-
-  relocate(c(iso3c, country, emptying_method, population_2017)) |>
-  rename(population_emptying_method = Population,
-         count_pits_septics = `No. pits/septics`,
-         emptying_demand = `Sanitation density/total country market density`,
-         urban_demand = `Urban proportion of demand`,
-         rural_demand = `Rural proportion of demand`
-  ) |>
-  mutate(emptying_demand = population_emptying_method / population_2017)
 
 read_data_fsmglobal <- function(range, emptying_method) {
 

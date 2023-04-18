@@ -1,0 +1,11 @@
+directory,file_name,variable_name,variable_type,description
+data,fsmglobal.rda,iso3c,character,International Standards Organization (ISO) 3-digit alphabetic codes.
+data,fsmglobal.rda,country,character,Name of the country.
+data,fsmglobal.rda,emptying_method,character,Type of faecal sludge emptying method for corresponding population in `population_emptying_method`.
+data,fsmglobal.rda,population_2017,numeric,Total country population in 2017.
+data,fsmglobal.rda,population_emptying_method,numeric, Total population requiring faecal sludge emptying services for type of method identified in `emptying_method`.
+data,fsmglobal.rda,count_pits_septics,numeric, Total number of pit latrines and septic tanks in country.
+data,fsmglobal.rda,emptying_demand,numeric, Emptying demand as the proportion of `population_emptying_method` / `population_2017`.
+data,fsmglobal.rda,urban_demand,numeric, Proportion of urban population.
+data,fsmglobal.rda,rural_demand,numeric, Proportion of rural population.
+

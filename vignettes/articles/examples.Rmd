@@ -15,9 +15,7 @@ library(fsmglobal)
 
 ```{r}
 
-fsmglobal::
-
-df |>
+fsmglobal |>
   group_by(emptying_method) |>
   summarise(sum_pop_2017 = sum(population_2017, na.rm = TRUE),
             sum_pop_emptying_method = sum(population_emptying_method)) |>
