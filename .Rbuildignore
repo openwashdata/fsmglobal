@@ -4,3 +4,4 @@
 ^CITATION\.cff$
 ^LICENSE\.md$
 ^README\.Rmd$
+^vignettes/articles$
