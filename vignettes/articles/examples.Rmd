@@ -1,0 +1,27 @@
+---
+title: "examples"
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(fsmglobal)
+```
+
+```{r}
+
+fsmglobal::
+
+df |>
+  group_by(emptying_method) |>
+  summarise(sum_pop_2017 = sum(population_2017, na.rm = TRUE),
+            sum_pop_emptying_method = sum(population_emptying_method)) |>
+  mutate(emptying_demand = sum_pop_emptying_method / sum_pop_2017 * 100)
+
+```
+
