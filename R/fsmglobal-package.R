@@ -1,6 +1,7 @@
 #' @keywords internal
-"_PACKAGE"
 #' @aliases fsmglobal-package
+"_PACKAGE"
+
 ## usethis namespace: start
 ## usethis namespace: end
 NULL

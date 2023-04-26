@@ -25,6 +25,6 @@ A tibble with 700 rows and 9 variables:
 fsmglobal
 }
 \description{
-Populations requiring faecal sludge emptying services.
+Populations of 175 countries requiring faecal sludge emptying services.
 }
 \keyword{datasets}
