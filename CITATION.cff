@@ -1,21 +1,98 @@
 # -----------------------------------------------------------
-# CITATION file created with {cffr} R package, v0.4.0
+# CITATION file created with {cffr} R package, v0.4.1.9000
 # See also: https://docs.ropensci.org/cffr/
 # -----------------------------------------------------------
  
 cff-version: 1.2.0
 message: 'To cite package "fsmglobal" in publications use:'
 type: software
-title: 'fsmglobal: What the Package Does (One Line, Title Case)'
+license: CC-BY-4.0
+title: 'fsmglobal: Global Faecal Sludge Emptying Services Demand'
 version: 0.0.0.9000
-abstract: What the package does (one paragraph).
+abstract: Global faecal sludge emptying demand data for 175 countries. Demand is quantified
+  by population size receiving one of four emptying methods (mechanized, non-mechanized,
+  unemptiable, no facility). The demand is disaggregated by rural and urban percentages
+  of population.
 authors:
-- family-names: Last
-  given-names: First
-  email: first.last@example.com
-  orcid: https://orcid.org/YOUR-ORCID-ID
+- family-names: Greene
+  given-names: Nicola
+  email: nicola@opero-services.com
+  orcid: https://orcid.org/0000-0001-9480-4197
+- family-names: Henessy
+  given-names: Sarah
+  email: sarah@triangle-environmental.com
+  orcid: https://orcid.org/0000-0001-9480-4197
+- family-names: Rogers
+  given-names: Tate W.
+  email: tate@triangle-environmental.com
+  orcid: https://orcid.org/0000-0000-0000-0000
+- family-names: Tsai
+  given-names: Jocelyn
+  email: jctsai@ncsu.edu
+  orcid: https://orcid.org/0000-0001-8777-0339
+- family-names: de los Reyes III
+  given-names: Francis L.
+  email: fldelosr@ncsu.edu
+  orcid: https://orcid.org/0000-0002-3593-0932
+- family-names: Schöbitz
+  given-names: Lars
+  email: lschoebitz@ethz.ch
+  orcid: https://orcid.org/0000-0003-2196-5015
 contact:
-- family-names: Last
-  given-names: First
-  email: first.last@example.com
-  orcid: https://orcid.org/YOUR-ORCID-ID
+- family-names: Schöbitz
+  given-names: Lars
+  email: lschoebitz@ethz.ch
+  orcid: https://orcid.org/0000-0003-2196-5015
+references:
+- type: software
+  title: rmarkdown
+  abstract: 'rmarkdown: Dynamic Documents for R'
+  notes: Suggests
+  url: https://pkgs.rstudio.com/rmarkdown/
+  repository: https://CRAN.R-project.org/package=rmarkdown
+  authors:
+  - family-names: Allaire
+    given-names: JJ
+    email: jj@rstudio.com
+  - family-names: Xie
+    given-names: Yihui
+    email: xie@yihui.name
+    orcid: https://orcid.org/0000-0003-0645-5666
+  - family-names: McPherson
+    given-names: Jonathan
+    email: jonathan@rstudio.com
+  - family-names: Luraschi
+    given-names: Javier
+    email: javier@rstudio.com
+  - family-names: Ushey
+    given-names: Kevin
+    email: kevin@rstudio.com
+  - family-names: Atkins
+    given-names: Aron
+    email: aron@rstudio.com
+  - family-names: Wickham
+    given-names: Hadley
+    email: hadley@rstudio.com
+  - family-names: Cheng
+    given-names: Joe
+    email: joe@rstudio.com
+  - family-names: Chang
+    given-names: Winston
+    email: winston@rstudio.com
+  - family-names: Iannone
+    given-names: Richard
+    email: rich@rstudio.com
+    orcid: https://orcid.org/0000-0003-3925-190X
+  year: '2023'
+- type: software
+  title: 'R: A Language and Environment for Statistical Computing'
+  notes: Depends
+  url: https://www.R-project.org/
+  authors:
+  - name: R Core Team
+  location:
+    name: Vienna, Austria
+  year: '2023'
+  institution:
+    name: R Foundation for Statistical Computing
+  version: '>= 2.10'

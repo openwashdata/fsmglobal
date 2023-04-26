@@ -6,48 +6,74 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of fsmglobal is to …
+## Overview
+
+This data was first published as part of a journal article by (Greene et
+al. 2021) and contained in the supplemental material as a table in a
+DOCX file.
 
 ## Installation
 
-You can install the development version of fsmglobal like so:
+You can install the development version of fsmglobal from
+[GitHub](https://github.com/) with:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+# install.packages("devtools")
+devtools::install_github("openwashdata/fsmglobal")
 ```
 
-## Example
+Alternatively, you can download the individual datasets as a CSV or XLSX
+file from the table below.
 
-This is a basic example which shows you how to solve a common problem:
+| dataset   | CSV                                                                                                        | XLSX                                                                                                         |
+|:----------|:-----------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------|
+| fsmglobal | [Download CSV](https://github.com/Global-Health-Engineering/fsmglobal/raw/main/inst/extdata/fsmglobal.csv) | [Download XLSX](https://github.com/Global-Health-Engineering/fsmglobal/raw/main/inst/extdata/fsmglobal.xlsx) |
+
+## Data
+
+The package provides access to one dataset.
 
 ``` r
-# library(fsmglobal)
-## basic example code
+library(fsmglobal)
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
+The `fsmglobal` data set has 9 variables and 700 observations. For an
+overview of the variable names, see the following table.
 
 ``` r
-summary(cars)
-#>      speed           dist       
-#>  Min.   : 4.0   Min.   :  2.00  
-#>  1st Qu.:12.0   1st Qu.: 26.00  
-#>  Median :15.0   Median : 36.00  
-#>  Mean   :15.4   Mean   : 42.98  
-#>  3rd Qu.:19.0   3rd Qu.: 56.00  
-#>  Max.   :25.0   Max.   :120.00
+fsmglobal
 ```
 
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date. `devtools::build_readme()` is handy for this. You could also
-use GitHub Actions to re-render `README.Rmd` every time you push. An
-example workflow can be found here:
-<https://github.com/r-lib/actions/tree/v1/examples>.
+| variable_name              | variable_type | description                                                                                                    |
+|:---------------------------|:--------------|:---------------------------------------------------------------------------------------------------------------|
+| iso3c                      | character     | International Standards Organization (ISO) 3-digit alphabetic codes.                                           |
+| country                    | character     | Name of the country.                                                                                           |
+| emptying_method            | character     | Type of faecal sludge emptying method for corresponding population in `population_emptying_method`.            |
+| population_2017            | numeric       | Total country population in 2017.                                                                              |
+| population_emptying_method | numeric       | Total population requiring faecal sludge emptying services for type of method identified in `emptying_method`. |
+| count_pits_septics         | numeric       | Total number of pit latrines and septic tanks in country.                                                      |
+| emptying_demand            | numeric       | Emptying demand as the proportion of `population_emptying_method` / `population_2017`.                         |
+| urban_demand               | numeric       | Proportion of urban population.                                                                                |
+| rural_demand               | numeric       | Proportion of rural population.                                                                                |
 
-You can also embed plots, for example:
+## License
 
-<img src="man/figures/README-pressure-1.png" width="100%" />
+Data are available as
+[CC-BY](https://github.com/Global-Health-Engineering/fsmglobal/blob/main/LICENSE.md).
 
-In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub and CRAN.
+## References
+
+<div id="refs" class="references csl-bib-body hanging-indent">
+
+<div id="ref-greene2021" class="csl-entry">
+
+Greene, Nicola, Sarah Hennessy, Tate W. Rogers, Jocelyn Tsai, and
+Francis L. de los Reyes III. 2021. “The Role of Emptying Services in
+Provision of Safely Managed Sanitation: A Classification and
+Quantification of the Needs of LMICs.” *Journal of Environmental
+Management* 290 (July): 112612.
+<https://doi.org/10.1016/j.jenvman.2021.112612>.
+
+</div>
+
+</div>

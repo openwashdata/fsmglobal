@@ -8,4 +8,17 @@
 \description{
 Global faecal sludge emptying demand data for 175 countries. Demand is quantified by population size receiving one of four emptying methods (mechanized, non-mechanized, unemptiable, no facility). The demand is disaggregated by rural and urban percentages of population.
 }
+\author{
+\strong{Maintainer}: Lars Schöbitz \email{lschoebitz@ethz.ch} (\href{https://orcid.org/0000-0003-2196-5015}{ORCID})
+
+Authors:
+\itemize{
+  \item Nicola Greene \email{nicola@opero-services.com} (\href{https://orcid.org/0000-0001-9480-4197}{ORCID})
+  \item Sarah Henessy \email{sarah@triangle-environmental.com} (\href{https://orcid.org/0000-0001-9480-4197}{ORCID})
+  \item Tate W. Rogers \email{tate@triangle-environmental.com} (\href{https://orcid.org/0000-0000-0000-0000}{ORCID})
+  \item Jocelyn Tsai \email{jctsai@ncsu.edu} (\href{https://orcid.org/0000-0001-8777-0339}{ORCID})
+  \item Francis L. de los Reyes III \email{fldelosr@ncsu.edu} (\href{https://orcid.org/0000-0002-3593-0932}{ORCID})
+}
+
+}
 \keyword{internal}

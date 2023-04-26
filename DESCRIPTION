@@ -13,12 +13,11 @@ Authors@R: c(
       given = "Sarah",
       family = "Henessy", 
       role = c("aut"),
-      email = "sarah@triangle-environmental.com"
-      #comment = c(ORCID = "0000-0000-0000-0000")
+      email = "sarah@triangle-environmental.com",
+      comment = c(ORCID = "0000-0001-9480-4197")
     ),
     person(
-      given = "Tate",
-      middle = "W."
+      given = "Tate W.",
       family = "Rogers", 
       role = c("aut"),
       email = "tate@triangle-environmental.com",
@@ -32,8 +31,7 @@ Authors@R: c(
       comment = c(ORCID = "0000-0001-8777-0339")
     ),
     person(
-      given = "Francis",
-      middle = "L."
+      given = "Francis L.",
       family = "de los Reyes III", 
       role = c("aut"),
       email = "fldelosr@ncsu.edu",
@@ -52,6 +50,7 @@ Description: Global faecal sludge emptying demand data for 175 countries. Demand
     (mechanized, non-mechanized, unemptiable, no facility). The demand is 
     disaggregated by rural and urban percentages of population. 
 License: CC BY 4.0
+Language: en-GB
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
