@@ -1,6 +1,6 @@
 #' fsmglobal
 #'
-#' Populations requiring faecal sludge emptying services.
+#' Populations of 175 countries requiring faecal sludge emptying services.
 #'
 #' @format A tibble with 700 rows and 9 variables:
 #' \describe{
