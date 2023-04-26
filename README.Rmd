@@ -26,6 +26,7 @@ library(gt)
 
 <!-- badges: start -->
 
+[![R-CMD-check](https://github.com/openwashdata/fsmglobal/workflows/R-CMD-check/badge.svg)](https://github.com/openwashdata/fsmglobal/actions)
 <!-- badges: end -->
 
 ## Overview
