@@ -9,7 +9,7 @@ home:
   links:
     - icon: github
       text: GitHub repository
-      href: https://github.com/Global-Health-Engineering/fsmglobal
+      href: https://github.com/openwashdata/fsmglobal
   sidebar:
     structure: [links, citation, authors, dev, custom]
     components:
