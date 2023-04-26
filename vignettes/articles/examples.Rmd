@@ -1,5 +1,7 @@
 ---
 title: "examples"
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r, include = FALSE}
@@ -10,16 +12,43 @@ knitr::opts_chunk$set(
 ```
 
 ```{r setup}
+library(tidyverse)
 library(fsmglobal)
 ```
 
 ```{r}
+tbl_emptying_demand_global <- fsmglobal |> 
+  group_by(emptying_method) |> 
+  summarise(
+    sum_population_emptying_method = sum(population_emptying_method)
+  ) |> 
+  mutate(
+    percent = sum_population_emptying_method / 
+      sum(sum_population_emptying_method) * 100
+  )
+```
 
-fsmglobal |>
-  group_by(emptying_method) |>
-  summarise(sum_pop_2017 = sum(population_2017, na.rm = TRUE),
-            sum_pop_emptying_method = sum(population_emptying_method)) |>
-  mutate(emptying_demand = sum_pop_emptying_method / sum_pop_2017 * 100)
+```{r}
+tbl_emptying_demand_global |> 
+  janitor::adorn_totals() |> 
+  knitr::kable(digits = 1) 
+```
 
+```{r}
+tbl_emptying_demand_country <- fsmglobal |> 
+  group_by(country, emptying_method) |> 
+  summarise(
+    sum_population_emptying_method = sum(population_emptying_method)
+  ) |> 
+  mutate(
+    percent = sum_population_emptying_method / 
+      sum(sum_population_emptying_method) * 100
+  )
+```
+
+```{r}
+# tbl_emptying_demand_country |> 
+#   ggplot(aes(x = percent, y = country, fill = emptying_method)) +
+#   geom_col()
 ```
 
