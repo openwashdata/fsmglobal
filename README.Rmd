@@ -124,4 +124,13 @@ tbl_emptying_demand_global |>
 Data are available as
 [CC-BY](https://github.com/Global-Health-Engineering/fsmglobal/blob/main/LICENSE.md).
 
+## Citation
+
+Please cite using:
+
+```{r}
+citation("fsmglobal")
+```
+
+
 ## References
