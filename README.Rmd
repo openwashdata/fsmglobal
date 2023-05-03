@@ -46,7 +46,7 @@ Alternatively, you can download the individual datasets as a CSV or XLSX file fr
 
 ```{r, echo=FALSE}
 
-extdata_path <- "https://github.com/Global-Health-Engineering/fsmglobal/raw/main/inst/extdata/"
+extdata_path <- "https://github.com/openwashdata/fsmglobal/raw/main/inst/extdata/"
 
 read_csv("data-raw/dictionary.csv") |> 
   distinct(file_name) |> 
@@ -114,7 +114,7 @@ tbl_emptying_demand_global |>
   gt(rowname_col = "emptying_method") |>
   tab_header(title = md("**Demand for faecal sludge emptying services**"), 
              subtitle = "summarised for 175 countries") |> 
-  fmt_number(decimals = 0) |> 
+  fmt_number(columns = "sum_population_emptying_method", decimals = 0) |> 
   fmt_percent(columns = "percent", decimals = 0, scale_values = FALSE) |> 
   cols_label(sum_population_emptying_method = "population") 
 ```

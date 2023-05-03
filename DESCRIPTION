@@ -11,10 +11,10 @@ Authors@R: c(
     ),
     person(
       given = "Sarah",
-      family = "Henessy", 
+      family = "Hennessy", 
       role = c("aut"),
       email = "sarah@triangle-environmental.com",
-      comment = c(ORCID = "0000-0000-0000-0000")
+      comment = c(ORCID = "0009-0000-4711-0766")
     ),
     person(
       given = "Tate W.",

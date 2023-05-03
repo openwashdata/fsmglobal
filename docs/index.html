@@ -14,7 +14,7 @@
 <link href="deps/bootstrap-5.2.2/bootstrap.min.css" rel="stylesheet">
 <script src="deps/bootstrap-5.2.2/bootstrap.bundle.min.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
-<!-- bootstrap-toc --><script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.js" integrity="sha256-4veVQbu7//Lk5TSmc7YV48MxtMy98e26cf5MrgZYnwo=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- search --><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="Global Faecal Sludge Emptying Services Demand">
+<!-- bootstrap-toc --><script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- search --><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="Global Faecal Sludge Emptying Services Demand">
 <meta property="og:description" content="Global faecal sludge emptying demand data for 175 countries. Demand
     is quantified by population size receiving one of four emptying methods
     (mechanized, non-mechanized, unemptiable, no facility). The demand is 
@@ -77,14 +77,14 @@
 </h2>
 <p>You can install the development version of fsmglobal from <a href="https://github.com/" class="external-link">GitHub</a> with:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="co"># install.packages("devtools")</span>
-<span class="fu">devtools</span><span class="fu">::</span><span class="fu"><a href="https://devtools.r-lib.org/reference/remote-reexports.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"openwashdata/fsmglobal"</span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span><span class="co"># install.packages("devtools")</span></span>
+<span><span class="fu">devtools</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"openwashdata/fsmglobal"</span><span class="op">)</span></span></code></pre></div>
 <p>Alternatively, you can download the individual datasets as a CSV or XLSX file from the table below.</p>
 <table class="table">
 <colgroup>
-<col width="4%">
+<col width="5%">
+<col width="46%">
 <col width="47%">
-<col width="48%">
 </colgroup>
 <thead><tr class="header">
 <th align="left">dataset</th>
@@ -93,8 +93,8 @@
 </tr></thead>
 <tbody><tr class="odd">
 <td align="left">fsmglobal</td>
-<td align="left"><a href="https://github.com/Global-Health-Engineering/fsmglobal/raw/main/inst/extdata/fsmglobal.csv" class="external-link">Download CSV</a></td>
-<td align="left"><a href="https://github.com/Global-Health-Engineering/fsmglobal/raw/main/inst/extdata/fsmglobal.xlsx" class="external-link">Download XLSX</a></td>
+<td align="left"><a href="https://github.com/openwashdata/fsmglobal/raw/main/inst/extdata/fsmglobal.csv" class="external-link">Download CSV</a></td>
+<td align="left"><a href="https://github.com/openwashdata/fsmglobal/raw/main/inst/extdata/fsmglobal.xlsx" class="external-link">Download XLSX</a></td>
 </tr></tbody>
 </table>
 </div>
@@ -103,10 +103,10 @@
 </h2>
 <p>The package provides access to one dataset.</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va">fsmglobal</span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va">fsmglobal</span><span class="op">)</span></span></code></pre></div>
 <p>The <code>fsmglobal</code> data set has 9 variables and 700 observations. For an overview of the variable names, see the following table.</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="va">fsmglobal</span></code></pre></div>
+<code class="sourceCode R"><span><span class="va">fsmglobal</span></span></code></pre></div>
 <table class="table">
 <colgroup>
 <col width="18%">
@@ -172,36 +172,36 @@
 </h2>
 <p>The code and table below show a summary for the demand for faecal sludge emptying services. Find this more examples in <code><a href="articles/examples.html">vignette("examples")</a></code>.</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va">fsmglobal</span><span class="op">)</span>
-<span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://gt.rstudio.com/" class="external-link">gt</a></span><span class="op">)</span>
-<span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://dplyr.tidyverse.org" class="external-link">dplyr</a></span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va">fsmglobal</span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://gt.rstudio.com/" class="external-link">gt</a></span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://dplyr.tidyverse.org" class="external-link">dplyr</a></span><span class="op">)</span></span></code></pre></div>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="va">tbl_emptying_demand_global</span> <span class="op">&lt;-</span> <span class="va">fsmglobal</span> |&gt; 
-  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/group_by.html" class="external-link">group_by</a></span><span class="op">(</span><span class="va">emptying_method</span><span class="op">)</span> |&gt; 
-  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/summarise.html" class="external-link">summarise</a></span><span class="op">(</span>
-    sum_population_emptying_method <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/sum.html" class="external-link">sum</a></span><span class="op">(</span><span class="va">population_emptying_method</span><span class="op">)</span>
-  <span class="op">)</span> |&gt; 
-  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html" class="external-link">mutate</a></span><span class="op">(</span>
-    percent <span class="op">=</span> <span class="va">sum_population_emptying_method</span> <span class="op">/</span> 
-      <span class="fu"><a href="https://rdrr.io/r/base/sum.html" class="external-link">sum</a></span><span class="op">(</span><span class="va">sum_population_emptying_method</span><span class="op">)</span> <span class="op">*</span> <span class="fl">100</span>
-  <span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span><span class="va">tbl_emptying_demand_global</span> <span class="op">&lt;-</span> <span class="va">fsmglobal</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/group_by.html" class="external-link">group_by</a></span><span class="op">(</span><span class="va">emptying_method</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/summarise.html" class="external-link">summarise</a></span><span class="op">(</span></span>
+<span>    sum_population_emptying_method <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/sum.html" class="external-link">sum</a></span><span class="op">(</span><span class="va">population_emptying_method</span><span class="op">)</span></span>
+<span>  <span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html" class="external-link">mutate</a></span><span class="op">(</span></span>
+<span>    percent <span class="op">=</span> <span class="va">sum_population_emptying_method</span> <span class="op">/</span> </span>
+<span>      <span class="fu"><a href="https://rdrr.io/r/base/sum.html" class="external-link">sum</a></span><span class="op">(</span><span class="va">sum_population_emptying_method</span><span class="op">)</span> <span class="op">*</span> <span class="fl">100</span></span>
+<span>  <span class="op">)</span></span></code></pre></div>
 <div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="va">tbl_emptying_demand_global</span> |&gt; 
-  <span class="fu">janitor</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/janitor/man/adorn_totals.html" class="external-link">adorn_totals</a></span><span class="op">(</span><span class="op">)</span> |&gt;
-  
-  <span class="co"># use gt R package to prepare a table</span>
-  <span class="fu"><a href="https://gt.rstudio.com/reference/gt.html" class="external-link">gt</a></span><span class="op">(</span>rowname_col <span class="op">=</span> <span class="st">"emptying_method"</span><span class="op">)</span> |&gt;
-  <span class="fu"><a href="https://gt.rstudio.com/reference/tab_header.html" class="external-link">tab_header</a></span><span class="op">(</span>title <span class="op">=</span> <span class="fu"><a href="https://gt.rstudio.com/reference/md.html" class="external-link">md</a></span><span class="op">(</span><span class="st">"**Demand for faecal sludge emptying services**"</span><span class="op">)</span>, 
-             subtitle <span class="op">=</span> <span class="st">"summarised for 175 countries"</span><span class="op">)</span> |&gt; 
-  <span class="fu"><a href="https://gt.rstudio.com/reference/fmt_number.html" class="external-link">fmt_number</a></span><span class="op">(</span>decimals <span class="op">=</span> <span class="fl">0</span><span class="op">)</span> |&gt; 
-  <span class="fu"><a href="https://gt.rstudio.com/reference/fmt_percent.html" class="external-link">fmt_percent</a></span><span class="op">(</span>columns <span class="op">=</span> <span class="st">"percent"</span>, decimals <span class="op">=</span> <span class="fl">0</span>, scale_values <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span> |&gt; 
-  <span class="fu"><a href="https://gt.rstudio.com/reference/cols_label.html" class="external-link">cols_label</a></span><span class="op">(</span>sum_population_emptying_method <span class="op">=</span> <span class="st">"population"</span><span class="op">)</span> </code></pre></div>
-<div id="ixkcpfeneh" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<code class="sourceCode R"><span><span class="va">tbl_emptying_demand_global</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu">janitor</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/janitor/man/adorn_totals.html" class="external-link">adorn_totals</a></span><span class="op">(</span><span class="op">)</span> <span class="op">|&gt;</span></span>
+<span>  </span>
+<span>  <span class="co"># use gt R package to prepare a table</span></span>
+<span>  <span class="fu"><a href="https://gt.rstudio.com/reference/gt.html" class="external-link">gt</a></span><span class="op">(</span>rowname_col <span class="op">=</span> <span class="st">"emptying_method"</span><span class="op">)</span> <span class="op">|&gt;</span></span>
+<span>  <span class="fu"><a href="https://gt.rstudio.com/reference/tab_header.html" class="external-link">tab_header</a></span><span class="op">(</span>title <span class="op">=</span> <span class="fu"><a href="https://gt.rstudio.com/reference/md.html" class="external-link">md</a></span><span class="op">(</span><span class="st">"**Demand for faecal sludge emptying services**"</span><span class="op">)</span>, </span>
+<span>             subtitle <span class="op">=</span> <span class="st">"summarised for 175 countries"</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://gt.rstudio.com/reference/fmt_number.html" class="external-link">fmt_number</a></span><span class="op">(</span>columns <span class="op">=</span> <span class="st">"sum_population_emptying_method"</span>, decimals <span class="op">=</span> <span class="fl">0</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://gt.rstudio.com/reference/fmt_percent.html" class="external-link">fmt_percent</a></span><span class="op">(</span>columns <span class="op">=</span> <span class="st">"percent"</span>, decimals <span class="op">=</span> <span class="fl">0</span>, scale_values <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://gt.rstudio.com/reference/cols_label.html" class="external-link">cols_label</a></span><span class="op">(</span>sum_population_emptying_method <span class="op">=</span> <span class="st">"population"</span><span class="op">)</span> </span></code></pre></div>
+<div id="lfmpzxygxf" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#ixkcpfeneh .gt_table {
+#lfmpzxygxf .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -226,7 +226,7 @@
   border-left-color: #D3D3D3;
 }
 
-#ixkcpfeneh .gt_heading {
+#lfmpzxygxf .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -238,12 +238,12 @@
   border-right-color: #D3D3D3;
 }
 
-#ixkcpfeneh .gt_caption {
+#lfmpzxygxf .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#ixkcpfeneh .gt_title {
+#lfmpzxygxf .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -255,7 +255,7 @@
   border-bottom-width: 0;
 }
 
-#ixkcpfeneh .gt_subtitle {
+#lfmpzxygxf .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -267,13 +267,13 @@
   border-top-width: 0;
 }
 
-#ixkcpfeneh .gt_bottom_border {
+#lfmpzxygxf .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#ixkcpfeneh .gt_col_headings {
+#lfmpzxygxf .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -288,7 +288,7 @@
   border-right-color: #D3D3D3;
 }
 
-#ixkcpfeneh .gt_col_heading {
+#lfmpzxygxf .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -308,7 +308,7 @@
   overflow-x: hidden;
 }
 
-#ixkcpfeneh .gt_column_spanner_outer {
+#lfmpzxygxf .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -320,15 +320,15 @@
   padding-right: 4px;
 }
 
-#ixkcpfeneh .gt_column_spanner_outer:first-child {
+#lfmpzxygxf .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#ixkcpfeneh .gt_column_spanner_outer:last-child {
+#lfmpzxygxf .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#ixkcpfeneh .gt_column_spanner {
+#lfmpzxygxf .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -340,7 +340,7 @@
   width: 100%;
 }
 
-#ixkcpfeneh .gt_group_heading {
+#lfmpzxygxf .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -366,7 +366,7 @@
   text-align: left;
 }
 
-#ixkcpfeneh .gt_empty_group_heading {
+#lfmpzxygxf .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -381,15 +381,15 @@
   vertical-align: middle;
 }
 
-#ixkcpfeneh .gt_from_md > :first-child {
+#lfmpzxygxf .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#ixkcpfeneh .gt_from_md > :last-child {
+#lfmpzxygxf .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#ixkcpfeneh .gt_row {
+#lfmpzxygxf .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -408,7 +408,7 @@
   overflow-x: hidden;
 }
 
-#ixkcpfeneh .gt_stub {
+#lfmpzxygxf .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -421,7 +421,7 @@
   padding-right: 5px;
 }
 
-#ixkcpfeneh .gt_stub_row_group {
+#lfmpzxygxf .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -435,11 +435,11 @@
   vertical-align: top;
 }
 
-#ixkcpfeneh .gt_row_group_first td {
+#lfmpzxygxf .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#ixkcpfeneh .gt_summary_row {
+#lfmpzxygxf .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -449,16 +449,16 @@
   padding-right: 5px;
 }
 
-#ixkcpfeneh .gt_first_summary_row {
+#lfmpzxygxf .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#ixkcpfeneh .gt_first_summary_row.thick {
+#lfmpzxygxf .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#ixkcpfeneh .gt_last_summary_row {
+#lfmpzxygxf .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -468,7 +468,7 @@
   border-bottom-color: #D3D3D3;
 }
 
-#ixkcpfeneh .gt_grand_summary_row {
+#lfmpzxygxf .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -478,7 +478,7 @@
   padding-right: 5px;
 }
 
-#ixkcpfeneh .gt_first_grand_summary_row {
+#lfmpzxygxf .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -488,11 +488,11 @@
   border-top-color: #D3D3D3;
 }
 
-#ixkcpfeneh .gt_striped {
+#lfmpzxygxf .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#ixkcpfeneh .gt_table_body {
+#lfmpzxygxf .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -501,7 +501,7 @@
   border-bottom-color: #D3D3D3;
 }
 
-#ixkcpfeneh .gt_footnotes {
+#lfmpzxygxf .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -515,7 +515,7 @@
   border-right-color: #D3D3D3;
 }
 
-#ixkcpfeneh .gt_footnote {
+#lfmpzxygxf .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-left: 4px;
@@ -524,7 +524,7 @@
   padding-right: 5px;
 }
 
-#ixkcpfeneh .gt_sourcenotes {
+#lfmpzxygxf .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -538,7 +538,7 @@
   border-right-color: #D3D3D3;
 }
 
-#ixkcpfeneh .gt_sourcenote {
+#lfmpzxygxf .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -546,64 +546,64 @@
   padding-right: 5px;
 }
 
-#ixkcpfeneh .gt_left {
+#lfmpzxygxf .gt_left {
   text-align: left;
 }
 
-#ixkcpfeneh .gt_center {
+#lfmpzxygxf .gt_center {
   text-align: center;
 }
 
-#ixkcpfeneh .gt_right {
+#lfmpzxygxf .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#ixkcpfeneh .gt_font_normal {
+#lfmpzxygxf .gt_font_normal {
   font-weight: normal;
 }
 
-#ixkcpfeneh .gt_font_bold {
+#lfmpzxygxf .gt_font_bold {
   font-weight: bold;
 }
 
-#ixkcpfeneh .gt_font_italic {
+#lfmpzxygxf .gt_font_italic {
   font-style: italic;
 }
 
-#ixkcpfeneh .gt_super {
+#lfmpzxygxf .gt_super {
   font-size: 65%;
 }
 
-#ixkcpfeneh .gt_footnote_marks {
+#lfmpzxygxf .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 75%;
   vertical-align: 0.4em;
 }
 
-#ixkcpfeneh .gt_asterisk {
+#lfmpzxygxf .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#ixkcpfeneh .gt_indent_1 {
+#lfmpzxygxf .gt_indent_1 {
   text-indent: 5px;
 }
 
-#ixkcpfeneh .gt_indent_2 {
+#lfmpzxygxf .gt_indent_2 {
   text-indent: 10px;
 }
 
-#ixkcpfeneh .gt_indent_3 {
+#lfmpzxygxf .gt_indent_3 {
   text-indent: 15px;
 }
 
-#ixkcpfeneh .gt_indent_4 {
+#lfmpzxygxf .gt_indent_4 {
   text-indent: 20px;
 }
 
-#ixkcpfeneh .gt_indent_5 {
+#lfmpzxygxf .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
@@ -700,19 +700,21 @@ Total
 </h2>
 <p>Please cite using:</p>
 <div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/citation.html" class="external-link">citation</a></span><span class="op">(</span><span class="st">"fsmglobal"</span><span class="op">)</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; Greene N, Henessy S, Rogers T, Tsai J, de los Reyes III F, Schöbitz L</span>
-<span class="co">#&gt; (????). "fsmglobal: Global Faecal Sludge Emptying Services Demand."</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; A BibTeX entry for LaTeX users is</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt;   @Misc{greenehenessy,</span>
-<span class="co">#&gt;     title = {fsmglobal: Global Faecal Sludge Emptying Services Demand},</span>
-<span class="co">#&gt;     author = {Nicola Greene and Sarah Henessy and Tate W. Rogers and Jocelyn Tsai and Francis L. {de los Reyes III} and Lars Schöbitz},</span>
-<span class="co">#&gt;     abstract = {Global faecal sludge emptying demand data for 175 countries. Demand is quantified by population size receiving one of four emptying methods (mechanized, non-mechanized, unemptiable, no facility). The demand is disaggregated by rural and urban percentages of population.},</span>
-<span class="co">#&gt;     version = {0.0.0.9000},</span>
-<span class="co">#&gt;   }</span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/citation.html" class="external-link">citation</a></span><span class="op">(</span><span class="st">"fsmglobal"</span><span class="op">)</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; To cite package 'fsmglobal' in publications use:</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt;   Greene N, Henessy S, Rogers T, Tsai J, de los Reyes III F, Schöbitz L</span></span>
+<span><span class="co">#&gt;   (????). "fsmglobal: Global Faecal Sludge Emptying Services Demand."</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; A BibTeX entry for LaTeX users is</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt;   @Misc{greenehenessy,</span></span>
+<span><span class="co">#&gt;     title = {fsmglobal: Global Faecal Sludge Emptying Services Demand},</span></span>
+<span><span class="co">#&gt;     author = {Nicola Greene and Sarah Henessy and Tate W. Rogers and Jocelyn Tsai and Francis L. {de los Reyes III} and Lars Schöbitz},</span></span>
+<span><span class="co">#&gt;     abstract = {Global faecal sludge emptying demand data for 175 countries. Demand is quantified by population size receiving one of four emptying methods (mechanized, non-mechanized, unemptiable, no facility). The demand is disaggregated by rural and urban percentages of population.},</span></span>
+<span><span class="co">#&gt;     version = {0.0.0.9000},</span></span>
+<span><span class="co">#&gt;   }</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="references">References<a class="anchor" aria-label="anchor" href="#references"></a>
@@ -743,7 +745,7 @@ Greene, Nicola, Sarah Hennessy, Tate W. Rogers, Jocelyn Tsai, and Francis L. de 
 <ul class="list-unstyled">
 <li>So <em>who</em> does the work?</li>
 <li>Nicola Greene <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0001-9480-4197" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
-<li>Sarah Henessy <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0000-0000-0000" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li>Sarah Hennessy <br><small class="roles"> Author </small> <a href="https://orcid.org/0009-0000-4711-0766" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
 <li>Tate W. Rogers <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0000-0000-0000" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
 <li>Jocelyn Tsai <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0001-8777-0339" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
 <li>Francis L. de los Reyes III <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0002-3593-0932" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
@@ -777,7 +779,7 @@ Greene, Nicola, Sarah Hennessy, Tate W. Rogers, Jocelyn Tsai, and Francis L. de 
 
 <div class="pkgdown-footer-right">
   <p></p>
-<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.7.</p>
+<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.6.</p>
 </div>
 
     </footer>

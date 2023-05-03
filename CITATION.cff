@@ -1,5 +1,5 @@
 # -----------------------------------------------------------
-# CITATION file created with {cffr} R package, v0.5.0
+# CITATION file created with {cffr} R package, v0.4.1.9000
 # See also: https://docs.ropensci.org/cffr/
 # -----------------------------------------------------------
  
@@ -18,10 +18,10 @@ authors:
   given-names: Nicola
   email: nicola@opero-services.com
   orcid: https://orcid.org/0000-0001-9480-4197
-- family-names: Henessy
+- family-names: Hennessy
   given-names: Sarah
   email: sarah@triangle-environmental.com
-  orcid: https://orcid.org/0000-0000-0000-0000
+  orcid: https://orcid.org/0009-0000-4711-0766
 - family-names: Rogers
   given-names: Tate W.
   email: tate@triangle-environmental.com
@@ -48,8 +48,6 @@ preferred-citation:
     orcid: https://orcid.org/0000-0001-9480-4197
   - family-names: Henessy
     given-names: Sarah
-    email: sarah@triangle-environmental.com
-    orcid: https://orcid.org/0000-0000-0000-0000
   - family-names: Rogers
     given-names: Tate W.
     email: tate@triangle-environmental.com
