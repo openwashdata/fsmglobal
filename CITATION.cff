@@ -1,5 +1,5 @@
 # -----------------------------------------------------------
-# CITATION file created with {cffr} R package, v0.4.1.9000
+# CITATION file created with {cffr} R package, v0.5.0
 # See also: https://docs.ropensci.org/cffr/
 # -----------------------------------------------------------
  
@@ -25,7 +25,7 @@ authors:
 - family-names: Rogers
   given-names: Tate W.
   email: tate@triangle-environmental.com
-  orcid: https://orcid.org/0000-0000-0000-0000
+  orcid: https://orcid.org/0009-0009-9006-5994
 - family-names: Tsai
   given-names: Jocelyn
   email: jct33@unc.edu
@@ -51,7 +51,7 @@ preferred-citation:
   - family-names: Rogers
     given-names: Tate W.
     email: tate@triangle-environmental.com
-    orcid: https://orcid.org/0000-0000-0000-0000
+    orcid: https://orcid.org/0009-0009-9006-5994
   - family-names: Tsai
     given-names: Jocelyn
     email: jct33@unc.edu
@@ -69,62 +69,9 @@ preferred-citation:
     non-mechanized, unemptiable, no facility). The demand is disaggregated by rural
     and urban percentages of population.
   version: 0.0.0.9000
-date-released: '2023-04-26'
+date-released: '2023-05-04'
 contact:
 - family-names: Schöbitz
   given-names: Lars
   email: lschoebitz@ethz.ch
   orcid: https://orcid.org/0000-0003-2196-5015
-references:
-- type: software
-  title: rmarkdown
-  abstract: 'rmarkdown: Dynamic Documents for R'
-  notes: Suggests
-  url: https://pkgs.rstudio.com/rmarkdown/
-  repository: https://CRAN.R-project.org/package=rmarkdown
-  authors:
-  - family-names: Allaire
-    given-names: JJ
-    email: jj@rstudio.com
-  - family-names: Xie
-    given-names: Yihui
-    email: xie@yihui.name
-    orcid: https://orcid.org/0000-0003-0645-5666
-  - family-names: McPherson
-    given-names: Jonathan
-    email: jonathan@rstudio.com
-  - family-names: Luraschi
-    given-names: Javier
-    email: javier@rstudio.com
-  - family-names: Ushey
-    given-names: Kevin
-    email: kevin@rstudio.com
-  - family-names: Atkins
-    given-names: Aron
-    email: aron@rstudio.com
-  - family-names: Wickham
-    given-names: Hadley
-    email: hadley@rstudio.com
-  - family-names: Cheng
-    given-names: Joe
-    email: joe@rstudio.com
-  - family-names: Chang
-    given-names: Winston
-    email: winston@rstudio.com
-  - family-names: Iannone
-    given-names: Richard
-    email: rich@rstudio.com
-    orcid: https://orcid.org/0000-0003-3925-190X
-  year: '2023'
-- type: software
-  title: 'R: A Language and Environment for Statistical Computing'
-  notes: Depends
-  url: https://www.R-project.org/
-  authors:
-  - name: R Core Team
-  location:
-    name: Vienna, Austria
-  year: '2023'
-  institution:
-    name: R Foundation for Statistical Computing
-  version: '>= 2.10'

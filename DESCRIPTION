@@ -21,7 +21,7 @@ Authors@R: c(
       family = "Rogers", 
       role = c("aut"),
       email = "tate@triangle-environmental.com",
-      comment = c(ORCID = "0000-0000-0000-0000")
+      comment = c(ORCID = "0009-0009-9006-5994")
     ),
     person(
       given = "Jocelyn",
