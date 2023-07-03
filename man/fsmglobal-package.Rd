@@ -14,8 +14,8 @@ Global faecal sludge emptying demand data for 175 countries. Demand is quantifie
 Authors:
 \itemize{
   \item Nicola Greene \email{nicola@opero-services.com} (\href{https://orcid.org/0000-0001-9480-4197}{ORCID})
-  \item Sarah Henessy \email{sarah@triangle-environmental.com} (\href{https://orcid.org/0000-0000-0000-0000}{ORCID})
-  \item Tate W. Rogers \email{tate@triangle-environmental.com} (\href{https://orcid.org/0000-0000-0000-0000}{ORCID})
+  \item Sarah Hennessy \email{sarah@triangle-environmental.com} (\href{https://orcid.org/0009-0000-4711-0766}{ORCID})
+  \item Tate W. Rogers \email{tate@triangle-environmental.com} (\href{https://orcid.org/0009-0009-9006-5994}{ORCID})
   \item Jocelyn Tsai \email{jct33@unc.edu} (\href{https://orcid.org/0000-0001-8777-0339}{ORCID})
   \item Francis L. de los Reyes III \email{fldelosr@ncsu.edu} (\href{https://orcid.org/0000-0002-3593-0932}{ORCID})
 }
