@@ -7,13 +7,17 @@ editor_options:
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
-  comment = "#>"
+  comment = "#>",
+  echo = TRUE,
+  message = FALSE,
+  warning = FALSE
 )
 ```
 
-```{r setup}
-library(tidyverse)
+```{r}
 library(fsmglobal)
+library(gt)
+library(dplyr)
 ```
 
 ```{r}
@@ -29,26 +33,28 @@ tbl_emptying_demand_global <- fsmglobal |>
 ```
 
 ```{r}
+
+
+```
+
+
+```{r}
 tbl_emptying_demand_global |> 
-  janitor::adorn_totals() |> 
-  knitr::kable(digits = 1) 
+  janitor::adorn_totals() |>
+  
+  # use gt R package to prepare a table
+  gt(rowname_col = "emptying_method") |>
+  tab_header(title = md("**Demand for faecal sludge emptying services**"), 
+             subtitle = "summarised for 175 countries") |> 
+  fmt_number(columns = "sum_population_emptying_method", decimals = 0) |> 
+  fmt_percent(columns = "percent", decimals = 0, scale_values = FALSE) |> 
+  cols_label(sum_population_emptying_method = "population") 
 ```
 
-```{r}
-tbl_emptying_demand_country <- fsmglobal |> 
-  group_by(country, emptying_method) |> 
-  summarise(
-    sum_population_emptying_method = sum(population_emptying_method)
-  ) |> 
-  mutate(
-    percent = sum_population_emptying_method / 
-      sum(sum_population_emptying_method) * 100
-  )
-```
 
 ```{r}
-# tbl_emptying_demand_country |> 
-#   ggplot(aes(x = percent, y = country, fill = emptying_method)) +
-#   geom_col()
+fsmglobal |> 
+  ggplot(aes(x = percent, y = country, fill = emptying_method)) +
+  geom_col()
 ```
 

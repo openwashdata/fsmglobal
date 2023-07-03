@@ -4,7 +4,8 @@ template:
   bootstrap: 5
   includes:
     in_header: |
-      <script defer data-domain="global-health-engineering.github.io/durbanplasticwaste" src="https://plausible.io/js/script.js"></script>
+      <script defer data-domain="openwashdata.github.io/fsmglobal" src="https://plausible.io/js/script.js"></script>
+
 home:
   links:
     - icon: github
