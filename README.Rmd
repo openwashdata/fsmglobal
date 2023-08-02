@@ -29,9 +29,39 @@ library(gt)
 [![R-CMD-check](https://github.com/openwashdata/fsmglobal/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/openwashdata/fsmglobal/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-## Overview
+This data was first published as part of a journal article by [@greene2021] and contained in the supplemental material as a table in a DOCX file. The following summary table was produced from the data and the code is shown further below.
 
-This data was first published as part of a journal article by [@greene2021] and contained in the supplemental material as a table in a DOCX file.
+```{r, echo=FALSE}
+library(fsmglobal)
+library(gt)
+library(dplyr)
+```
+
+```{r, echo=FALSE}
+tbl_emptying_demand_global <- fsmglobal |> 
+  group_by(emptying_method) |> 
+  summarise(
+    sum_population_emptying_method = sum(population_emptying_method)
+  ) |> 
+  mutate(
+    percent = sum_population_emptying_method / 
+      sum(sum_population_emptying_method) * 100
+  )
+```
+
+
+```{r, echo=FALSE}
+tbl_emptying_demand_global |> 
+  janitor::adorn_totals() |>
+  
+  # use gt R package to prepare a table
+  gt(rowname_col = "emptying_method") |>
+  tab_header(title = md("**Demand for faecal sludge emptying services**"), 
+             subtitle = "summarised for 175 countries") |> 
+  fmt_number(columns = "sum_population_emptying_method", decimals = 0) |> 
+  fmt_percent(columns = "percent", decimals = 0, scale_values = FALSE) |> 
+  cols_label(sum_population_emptying_method = "population") 
+```
 
 ## Installation
 
@@ -86,13 +116,13 @@ readr::read_csv("data-raw/dictionary.csv") |>
 
 The code and table below show a summary for the demand for faecal sludge emptying services. Find this and more examples in `vignette("examples")`.
 
-```{r}
+```{r,eval=FALSE}
 library(fsmglobal)
 library(gt)
 library(dplyr)
 ```
 
-```{r}
+```{r, eval=FALSE}
 tbl_emptying_demand_global <- fsmglobal |> 
   group_by(emptying_method) |> 
   summarise(
@@ -103,8 +133,6 @@ tbl_emptying_demand_global <- fsmglobal |>
       sum(sum_population_emptying_method) * 100
   )
 ```
-
-
 
 ```{r}
 tbl_emptying_demand_global |> 
