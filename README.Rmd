@@ -25,7 +25,7 @@ library(gt)
 # fsmglobal
 
 <!-- badges: start -->
-
+[![DOI](https://zenodo.org/badge/577705928.svg)](https://zenodo.org/badge/latestdoi/577705928)
 <!-- badges: end -->
 
 ## Overview
