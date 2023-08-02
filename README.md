@@ -4,6 +4,8 @@
 # fsmglobal
 
 <!-- badges: start -->
+
+[![DOI](https://zenodo.org/badge/577705928.svg)](https://zenodo.org/badge/latestdoi/577705928)
 <!-- badges: end -->
 
 ## Overview
@@ -14,8 +16,7 @@ DOCX file.
 
 ## Installation
 
-You can install the development version of fsmglobal from
-[GitHub](https://github.com/) with:
+You can install fsmglobal from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
@@ -59,7 +60,8 @@ fsmglobal
 ## Examples
 
 The code and table below show a summary for the demand for faecal sludge
-emptying services. Find this more examples in `vignette("examples")`.
+emptying services. Find this and more examples in
+`vignette("examples")`.
 
 ``` r
 library(fsmglobal)
@@ -92,20 +94,20 @@ tbl_emptying_demand_global |>
   cols_label(sum_population_emptying_method = "population") 
 ```
 
-<div id="gxyekdbtot" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#gxyekdbtot table {
+<div id="dcypbvfpsb" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#dcypbvfpsb table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-&#10;#gxyekdbtot thead, #gxyekdbtot tbody, #gxyekdbtot tfoot, #gxyekdbtot tr, #gxyekdbtot td, #gxyekdbtot th {
+&#10;#dcypbvfpsb thead, #dcypbvfpsb tbody, #dcypbvfpsb tfoot, #dcypbvfpsb tr, #dcypbvfpsb td, #dcypbvfpsb th {
   border-style: none;
 }
-&#10;#gxyekdbtot p {
+&#10;#dcypbvfpsb p {
   margin: 0;
   padding: 0;
 }
-&#10;#gxyekdbtot .gt_table {
+&#10;#dcypbvfpsb .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -130,11 +132,11 @@ tbl_emptying_demand_global |>
   border-left-width: 2px;
   border-left-color: #D3D3D3;
 }
-&#10;#gxyekdbtot .gt_caption {
+&#10;#dcypbvfpsb .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
-&#10;#gxyekdbtot .gt_title {
+&#10;#dcypbvfpsb .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -145,7 +147,7 @@ tbl_emptying_demand_global |>
   border-bottom-color: #FFFFFF;
   border-bottom-width: 0;
 }
-&#10;#gxyekdbtot .gt_subtitle {
+&#10;#dcypbvfpsb .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -156,7 +158,7 @@ tbl_emptying_demand_global |>
   border-top-color: #FFFFFF;
   border-top-width: 0;
 }
-&#10;#gxyekdbtot .gt_heading {
+&#10;#dcypbvfpsb .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -167,12 +169,12 @@ tbl_emptying_demand_global |>
   border-right-width: 1px;
   border-right-color: #D3D3D3;
 }
-&#10;#gxyekdbtot .gt_bottom_border {
+&#10;#dcypbvfpsb .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#gxyekdbtot .gt_col_headings {
+&#10;#dcypbvfpsb .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -186,7 +188,7 @@ tbl_emptying_demand_global |>
   border-right-width: 1px;
   border-right-color: #D3D3D3;
 }
-&#10;#gxyekdbtot .gt_col_heading {
+&#10;#dcypbvfpsb .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -205,7 +207,7 @@ tbl_emptying_demand_global |>
   padding-right: 5px;
   overflow-x: hidden;
 }
-&#10;#gxyekdbtot .gt_column_spanner_outer {
+&#10;#dcypbvfpsb .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -216,13 +218,13 @@ tbl_emptying_demand_global |>
   padding-left: 4px;
   padding-right: 4px;
 }
-&#10;#gxyekdbtot .gt_column_spanner_outer:first-child {
+&#10;#dcypbvfpsb .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
-&#10;#gxyekdbtot .gt_column_spanner_outer:last-child {
+&#10;#dcypbvfpsb .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
-&#10;#gxyekdbtot .gt_column_spanner {
+&#10;#dcypbvfpsb .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -233,10 +235,10 @@ tbl_emptying_demand_global |>
   display: inline-block;
   width: 100%;
 }
-&#10;#gxyekdbtot .gt_spanner_row {
+&#10;#dcypbvfpsb .gt_spanner_row {
   border-bottom-style: hidden;
 }
-&#10;#gxyekdbtot .gt_group_heading {
+&#10;#dcypbvfpsb .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -261,7 +263,7 @@ tbl_emptying_demand_global |>
   vertical-align: middle;
   text-align: left;
 }
-&#10;#gxyekdbtot .gt_empty_group_heading {
+&#10;#dcypbvfpsb .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -275,13 +277,13 @@ tbl_emptying_demand_global |>
   border-bottom-color: #D3D3D3;
   vertical-align: middle;
 }
-&#10;#gxyekdbtot .gt_from_md > :first-child {
+&#10;#dcypbvfpsb .gt_from_md > :first-child {
   margin-top: 0;
 }
-&#10;#gxyekdbtot .gt_from_md > :last-child {
+&#10;#dcypbvfpsb .gt_from_md > :last-child {
   margin-bottom: 0;
 }
-&#10;#gxyekdbtot .gt_row {
+&#10;#dcypbvfpsb .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -299,7 +301,7 @@ tbl_emptying_demand_global |>
   vertical-align: middle;
   overflow-x: hidden;
 }
-&#10;#gxyekdbtot .gt_stub {
+&#10;#dcypbvfpsb .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -311,7 +313,7 @@ tbl_emptying_demand_global |>
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#gxyekdbtot .gt_stub_row_group {
+&#10;#dcypbvfpsb .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -324,13 +326,13 @@ tbl_emptying_demand_global |>
   padding-right: 5px;
   vertical-align: top;
 }
-&#10;#gxyekdbtot .gt_row_group_first td {
+&#10;#dcypbvfpsb .gt_row_group_first td {
   border-top-width: 2px;
 }
-&#10;#gxyekdbtot .gt_row_group_first th {
+&#10;#dcypbvfpsb .gt_row_group_first th {
   border-top-width: 2px;
 }
-&#10;#gxyekdbtot .gt_summary_row {
+&#10;#dcypbvfpsb .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -339,14 +341,14 @@ tbl_emptying_demand_global |>
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#gxyekdbtot .gt_first_summary_row {
+&#10;#dcypbvfpsb .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
-&#10;#gxyekdbtot .gt_first_summary_row.thick {
+&#10;#dcypbvfpsb .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
-&#10;#gxyekdbtot .gt_last_summary_row {
+&#10;#dcypbvfpsb .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -355,7 +357,7 @@ tbl_emptying_demand_global |>
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#gxyekdbtot .gt_grand_summary_row {
+&#10;#dcypbvfpsb .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -364,7 +366,7 @@ tbl_emptying_demand_global |>
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#gxyekdbtot .gt_first_grand_summary_row {
+&#10;#dcypbvfpsb .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -373,7 +375,7 @@ tbl_emptying_demand_global |>
   border-top-width: 6px;
   border-top-color: #D3D3D3;
 }
-&#10;#gxyekdbtot .gt_last_grand_summary_row_top {
+&#10;#dcypbvfpsb .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -382,10 +384,10 @@ tbl_emptying_demand_global |>
   border-bottom-width: 6px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#gxyekdbtot .gt_striped {
+&#10;#dcypbvfpsb .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
-&#10;#gxyekdbtot .gt_table_body {
+&#10;#dcypbvfpsb .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -393,7 +395,7 @@ tbl_emptying_demand_global |>
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#gxyekdbtot .gt_footnotes {
+&#10;#dcypbvfpsb .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -406,7 +408,7 @@ tbl_emptying_demand_global |>
   border-right-width: 2px;
   border-right-color: #D3D3D3;
 }
-&#10;#gxyekdbtot .gt_footnote {
+&#10;#dcypbvfpsb .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -414,7 +416,7 @@ tbl_emptying_demand_global |>
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#gxyekdbtot .gt_sourcenotes {
+&#10;#dcypbvfpsb .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -427,57 +429,57 @@ tbl_emptying_demand_global |>
   border-right-width: 2px;
   border-right-color: #D3D3D3;
 }
-&#10;#gxyekdbtot .gt_sourcenote {
+&#10;#dcypbvfpsb .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#gxyekdbtot .gt_left {
+&#10;#dcypbvfpsb .gt_left {
   text-align: left;
 }
-&#10;#gxyekdbtot .gt_center {
+&#10;#dcypbvfpsb .gt_center {
   text-align: center;
 }
-&#10;#gxyekdbtot .gt_right {
+&#10;#dcypbvfpsb .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
-&#10;#gxyekdbtot .gt_font_normal {
+&#10;#dcypbvfpsb .gt_font_normal {
   font-weight: normal;
 }
-&#10;#gxyekdbtot .gt_font_bold {
+&#10;#dcypbvfpsb .gt_font_bold {
   font-weight: bold;
 }
-&#10;#gxyekdbtot .gt_font_italic {
+&#10;#dcypbvfpsb .gt_font_italic {
   font-style: italic;
 }
-&#10;#gxyekdbtot .gt_super {
+&#10;#dcypbvfpsb .gt_super {
   font-size: 65%;
 }
-&#10;#gxyekdbtot .gt_footnote_marks {
+&#10;#dcypbvfpsb .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
-&#10;#gxyekdbtot .gt_asterisk {
+&#10;#dcypbvfpsb .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
-&#10;#gxyekdbtot .gt_indent_1 {
+&#10;#dcypbvfpsb .gt_indent_1 {
   text-indent: 5px;
 }
-&#10;#gxyekdbtot .gt_indent_2 {
+&#10;#dcypbvfpsb .gt_indent_2 {
   text-indent: 10px;
 }
-&#10;#gxyekdbtot .gt_indent_3 {
+&#10;#dcypbvfpsb .gt_indent_3 {
   text-indent: 15px;
 }
-&#10;#gxyekdbtot .gt_indent_4 {
+&#10;#dcypbvfpsb .gt_indent_4 {
   text-indent: 20px;
 }
-&#10;#gxyekdbtot .gt_indent_5 {
+&#10;#dcypbvfpsb .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
@@ -519,7 +521,7 @@ tbl_emptying_demand_global |>
 ## License
 
 Data are available as
-[CC-BY](https://github.com/Global-Health-Engineering/fsmglobal/blob/main/LICENSE.md).
+[CC-BY](https://github.com/openwashdata/fsmglobal/blob/main/LICENSE.md).
 
 ## Citation
 
@@ -529,16 +531,19 @@ Please cite using:
 citation("fsmglobal")
 #> To cite package 'fsmglobal' in publications use:
 #> 
-#>   Greene N, Henessy S, Rogers T, Tsai J, de los Reyes III F, Schöbitz L
-#>   (????). "fsmglobal: Global Faecal Sludge Emptying Services Demand."
+#>   Greene N, Hennessy S, Rogers T, Tsai J, III F, Schöbitz L (2023).
+#>   "fsmglobal. Global Faecal Sludge Emptying Services Demand."
+#>   <https://openwashdata.github.io/fsmglobal/>.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
-#>   @Misc{greenehenessy,
-#>     title = {fsmglobal: Global Faecal Sludge Emptying Services Demand},
-#>     author = {Nicola Greene and Sarah Henessy and Tate W. Rogers and Jocelyn Tsai and Francis L. {de los Reyes III} and Lars Schöbitz},
+#>   @Misc{greenehennessy:2023,
+#>     title = {fsmglobal. Global Faecal Sludge Emptying Services Demand},
+#>     author = {Nicola Greene and Sarah Hennessy and Tate W. Rogers and Jocelyn Tsai and Francis L. de los Reyes III and Lars Schöbitz},
+#>     year = {2023},
+#>     url = {https://openwashdata.github.io/fsmglobal/},
 #>     abstract = {Global faecal sludge emptying demand data for 175 countries. Demand is quantified by population size receiving one of four emptying methods (mechanized, non-mechanized, unemptiable, no facility). The demand is disaggregated by rural and urban percentages of population.},
-#>     version = {0.0.0.9000},
+#>     version = {0.0.1},
 #>   }
 ```
 
