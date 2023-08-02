@@ -34,7 +34,7 @@ This data was first published as part of a journal article by [@greene2021] and 
 
 ## Installation
 
-You can install the development version of fsmglobal from [GitHub](https://github.com/) with:
+You can install fsmglobal from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
@@ -129,7 +129,6 @@ Please cite using:
 
 ```{r}
 citation("fsmglobal")
-s```
-
+```
 
 ## References

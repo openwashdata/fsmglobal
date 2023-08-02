@@ -18,6 +18,7 @@ knitr::opts_chunk$set(
 library(fsmglobal)
 library(gt)
 library(dplyr)
+library(ggplot2)
 ```
 
 ```{r}
@@ -30,11 +31,6 @@ tbl_emptying_demand_global <- fsmglobal |>
     percent = sum_population_emptying_method / 
       sum(sum_population_emptying_method) * 100
   )
-```
-
-```{r}
-
-
 ```
 
 
@@ -51,10 +47,4 @@ tbl_emptying_demand_global |>
   cols_label(sum_population_emptying_method = "population") 
 ```
 
-
-```{r}
-fsmglobal |> 
-  ggplot(aes(x = percent, y = country, fill = emptying_method)) +
-  geom_col()
-```
 
