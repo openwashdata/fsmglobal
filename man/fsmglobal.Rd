@@ -14,8 +14,8 @@ A tibble with 700 rows and 9 variables:
 \item{population_emptying_method}{ Total population requiring faecal sludge emptying services for type of method identified in \code{emptying_method}.}
 \item{count_pits_septics}{ Total number of pit latrines and septic tanks in country.}
 \item{emptying_demand}{ Emptying demand as the proportion of \code{population_emptying_method} / \code{population_2017}.}
-\item{urban_demand}{ Proportion of urban population.}
-\item{rural_demand}{ Proportion of rural population.}
+\item{urban_demand}{ Urban proportion of the emptying demand (share of \code{population_emptying_method} in urban areas).}
+\item{rural_demand}{ Rural proportion of the emptying demand (share of \code{population_emptying_method} in rural areas).}
 }
 }
 \source{
