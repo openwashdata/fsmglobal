@@ -6,6 +6,6 @@ data,fsmglobal.rda,population_2017,numeric,Total country population in 2017.
 data,fsmglobal.rda,population_emptying_method,numeric, Total population requiring faecal sludge emptying services for type of method identified in `emptying_method`.
 data,fsmglobal.rda,count_pits_septics,numeric, Total number of pit latrines and septic tanks in country.
 data,fsmglobal.rda,emptying_demand,numeric, Emptying demand as the proportion of `population_emptying_method` / `population_2017`.
-data,fsmglobal.rda,urban_demand,numeric, Proportion of urban population.
-data,fsmglobal.rda,rural_demand,numeric, Proportion of rural population.
+data,fsmglobal.rda,urban_demand,numeric, Urban proportion of the emptying demand (share of `population_emptying_method` in urban areas).
+data,fsmglobal.rda,rural_demand,numeric, Rural proportion of the emptying demand (share of `population_emptying_method` in rural areas).
 

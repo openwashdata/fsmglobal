@@ -11,8 +11,8 @@
 #'   \item{population_emptying_method}{ Total population requiring faecal sludge emptying services for type of method identified in `emptying_method`.}
 #'   \item{count_pits_septics}{ Total number of pit latrines and septic tanks in country.}
 #'   \item{emptying_demand}{ Emptying demand as the proportion of `population_emptying_method` / `population_2017`.}
-#'   \item{urban_demand}{ Proportion of urban population.}
-#'   \item{rural_demand}{ Proportion of rural population.}
+#'   \item{urban_demand}{ Urban proportion of the emptying demand (share of `population_emptying_method` in urban areas).}
+#'   \item{rural_demand}{ Rural proportion of the emptying demand (share of `population_emptying_method` in rural areas).}
 #' }
 #' @source {Originally published in: Greene, N., Hennessy, S., Rogers, T. W., Tsai, J., & de los Reyes III, F. L. (2021). The role of emptying services in provision of safely managed sanitation: A classification and quantification of the needs of LMICs. Journal of Environmental Management, 290, 112612. https://doi.org/10.1016/j.jenvman.2021.112612}
 #'
