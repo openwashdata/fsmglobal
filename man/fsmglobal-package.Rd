@@ -3,10 +3,17 @@
 \docType{package}
 \name{fsmglobal-package}
 \alias{fsmglobal-package}
-\alias{_PACKAGE}
 \title{fsmglobal: Global Faecal Sludge Emptying Services Demand}
 \description{
-Global faecal sludge emptying demand data for 175 countries. Demand is quantified by population size receiving one of four emptying methods (mechanized, non-mechanized, unemptiable, no facility). The demand is disaggregated by rural and urban percentages of population.
+Global faecal sludge emptying demand data for 175 countries and territories, based on 2017 population figures. Demand is quantified by the population served by one of four emptying methods (mechanized, non-mechanized, unemptiable, no facility). The demand is disaggregated into urban and rural proportions.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/openwashdata/fsmglobal}
+  \item Report bugs at \url{https://github.com/openwashdata/fsmglobal/issues}
+}
+
 }
 \author{
 \strong{Maintainer}: Lars Schöbitz \email{lschoebitz@ethz.ch} (\href{https://orcid.org/0000-0003-2196-5015}{ORCID})
