@@ -11,6 +11,8 @@
 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 <!-- badges: end -->
 
+A data package published by [openwashdata](https://openwashdata.org).
+
 This data was first published as part of a journal article by (Greene et
 al. 2021) and contained in the supplemental material as a table in a
 DOCX file. The following summary table was produced from the data and
