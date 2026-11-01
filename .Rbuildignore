@@ -11,3 +11,5 @@
 ^pkgdown$
 ^citation.R$
 ^references\.bib$
+^_brand\.yml$
+^logos$

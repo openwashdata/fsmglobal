@@ -56,7 +56,7 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 Suggests: 
     rmarkdown
-Config/Needs/website: rmarkdown, tidyverse, epoxy, gt, janitor, dplyr, ggplot2
+Config/Needs/website: rmarkdown, tidyverse, epoxy, gt, janitor, dplyr, ggplot2, brand.yml
 Depends: 
     R (>= 2.10)
 LazyData: true
@@ -76,4 +76,5 @@ Config/washr/publisher: Published by [openwashdata](https://openwashdata.org), a
 Config/washr/home: https://openwashdata.org
 Config/washr/catalog: https://openwashdata.org/pages/gallery/data/
 Config/washr/community: This package is part of [openwashdata](https://openwashdata.org). Browse the [data catalogue](https://openwashdata.org/pages/gallery/data/) or get the [newsletter](https://openwashdata.org/pages/newsletter/).
-Config/washr/version: 1.2.1
+Config/washr/version: 1.2.2
+Config/washr/brand: v1.1.0
