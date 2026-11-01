@@ -1,7 +1,5 @@
 # fsmglobal
 
-A data package published by [openwashdata](https://openwashdata.org).
-
 This data was first published as part of a journal article by (Greene et
 al. 2021) and contained in the supplemental material as a table in a
 DOCX file. The following summary table was produced from the data and
@@ -119,6 +117,8 @@ Data are available as
 [CC-BY](https://github.com/openwashdata/fsmglobal/blob/main/LICENSE.md).
 
 ## Citation
+
+Published by openwashdata, <https://openwashdata.org>.
 
 Please cite using:
 
